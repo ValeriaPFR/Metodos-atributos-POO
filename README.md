@@ -1,2 +1,5 @@
 # Metodos-atributos-POO
 Una cadena de pizzerías desea crear una aplicación para que los clientes puedan autogestionar sus pedidos. Por ahora, se te solicita crear un prototipo que resuelva el algoritmo que permita a un usuario ordenar una pizza de 3 ingredientes, y escoger el tipo de masa. Con POO
+
+Modularización
+Los requerimientos de esta aplicación se abordaron en 3 módulos. El módulo ingredientes.py presenta las opciones de ingredientes y grosor de masa para la preparación de la pizza, cuya finalidad es comparar las opciones numéricas 'int' ingresadas por el usuario y su correspondiente ingrediente 'str'. El archivo modular pizza.py es el encargado de la construcción de la pizza, mediante sus componentes antes presentados en el archivo ingredientes.py. Finalmente en el archivo modular evaluaciones.py, se establece las validaciones de las opciones ingresadas, con respecto a las disponibles.
